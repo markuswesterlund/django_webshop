@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '!nwz-uhpywo166d&h2#atv9=tiuc43@i)w+8or($9wzb!$kyee'
+SECRET_KEY = 'cb9#++%o%2n2s*d3tr^j69c#_##$h(4h*jno$l76-c8%$r^z*c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -54,8 +54,7 @@ ROOT_URLCONF = 'django_webshop.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
-        ,
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
